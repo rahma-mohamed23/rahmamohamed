@@ -1,0 +1,345 @@
+/*  global rules start */
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/*  global rules end */
+/* buttons */
+.skills .my-skills .a,
+.resume .a,
+.edu a,
+.testemonials a{
+    border: 2px solid #3FA38F;
+    margin-top: 20px;
+    color: #3FA38F;
+    padding: 10px;
+    cursor: pointer;
+}
+/* start header style */
+.header .slider{
+    background: url(image/logo6.jpg) center center/cover;
+    height: 600px;
+}
+.header .slider .text{
+    text-align: center;
+    padding: 20%;
+    text-transform: uppercase;
+}
+.header .slider .text h1{
+    color: white;
+    margin-bottom: 80px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.header .slider .text a{
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+}
+.header .nav{
+    background-color: #232B2B;
+    color: white;
+    overflow: hidden;
+}
+.header .nav .container h2 span{
+    color: #3FA38F;
+}
+.header .nav .container ul{
+    list-style: none;
+    padding-left: 0;
+    float: right;
+    text-transform: uppercase;
+}
+.header .nav .container ul li{
+    float: left;
+    padding: 10px;
+}
+.header .nav .container ul a{
+    color: white;
+    text-decoration: none;
+}
+.header .nav .container ul li a:hover,
+.header .nav .container ul li a:active{
+    color: #3FA38F;
+}
+/* end header style */
+/* start feature style */
+.features{
+    overflow: hidden;
+}
+.features .container .feat{
+    width: 33.333%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.features .container .feat h2{
+    color: #444;
+}
+.features .container .feat p{
+    line-height: 1.5;
+    color: #888;
+}
+/* end feature style */
+/* start about style */
+.about{
+    background-color: #ddd;
+    overflow: hidden;
+}
+.about .img{
+    width: 40%;
+}
+.about .img img{
+    width: 90%;
+}
+.about .info{
+    width: 60%;
+}
+.about .info h2{
+    color: #555;
+}
+.about .info p{
+    line-height: 1.5;
+    color: #666;
+}
+.about .info .p-2{
+    margin-top: 25px;
+}
+.about .info .hobbies{
+    overflow: hidden;
+}
+.about .info .hobbies .right{
+    margin-left: 200px;
+}
+.about .info .hobbies .left{
+    min-height: 100px;
+}
+.about .info .hobbies .left > div , .right > div{
+    min-height: 100px;
+    margin-top: 30px;
+}
+.about .info .hobbies i{
+    color: #3FA38F;
+    margin-right: 10px;
+    font-size: 21px;
+}
+/* end about style */
+/* start skills style */
+.skills{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+.skills .my-skills,
+.skills .progres
+{
+    width: 50%;
+}
+.skills .my-skills h2{
+    color: #555;
+}
+.skills .my-skills p{
+    line-height: 1.5;
+    color: #666;
+    width: 70%;
+}
+.skills .my-skills .p-2{
+    margin-top: 40px;
+}
+.skills .progres .teq{
+    margin-left: 50px;
+}
+.skills .progres .teq h3{
+    color: #555;
+}
+.skills .progres .teq div{
+    background-color: #f2f2f2;
+    height: 25px;
+}
+.skills .progres .teq div span{
+    background-color: #3FA38F;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: end;
+    padding-right: 30px;
+    color: white;
+}
+/* end skills style */
+/* start resume style */
+.resume{
+    background-color: #f3f3f3;
+    text-align: center;
+    line-height: 1.5;
+    padding: 40px;
+}
+/* end resume style */
+/* start edu style */
+.edu{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+.edu .main{
+    width: 50%;
+    margin-right: 5%;
+}
+.edu .exp
+{
+    width: 45%;
+    margin-bottom: 20px;
+}
+.edu .main h2{
+    color: #555;
+}
+.edu .main p{
+    line-height: 1.5;
+    color: #666;
+    width: 70%;
+}
+.skills .main .p-2{
+    margin-top: 40px;
+}
+.edu .exp h3{
+    margin-top: 80px;
+    margin-bottom: 8px;
+    color: #6F6F71;
+}
+.edu .exp span{
+    display: block;
+    margin-bottom: 8px;
+}
+.edu .exp span:first-of-type{
+    color: #d6d6d6
+}
+.edu .exp span:last-of-type{
+    border: #3FA38F solid 2px;
+    background-color: #3FA38F;
+    color: white;
+    display: inline-block;
+    padding: 1px 5px;
+}
+.edu hr{
+    background-color: #d6d6d6;
+    margin: 20px 0;
+    height: 1px;
+    border: 0;
+}
+.edu .exp p{
+    color: #d6d6d6;
+    line-height: 1.3;
+}
+.edu .main button{
+    border: 2px solid #3FA38F;
+    margin-top: 20px;
+    color: #3FA38F;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+.clear{
+    clear: both;
+}
+/* end edu style */
+/* start testemonials style*/
+.testemonials{
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 40px;
+}
+.testemonials p{
+    line-height: 1.5;
+    color: #ABABAB;
+}
+/* end testemonials style*/
+/* start portfolio style */
+.portfolio{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.portfolio .text{
+    padding: 50px 0;
+}
+.portfolio .text h2{
+    color: #505050;
+}
+.portfolio .text p{
+    color: #DADADA;
+}
+.portfolio .img-work{
+    overflow: hidden;
+}
+.portfolio .img-work > div{
+    width: 33.333%;
+    margin-bottom: 10px;
+}
+.portfolio .img-work > div img{
+    width: 92%;
+    height: 100%;
+    margin: 10px;
+}
+/* end portfolio style */
+/* start contact style */
+.contact{
+    background-color: #222E2D;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+.contact .info{
+    width: 50%;
+    margin-right: 5%;
+}
+.contact .form{
+    width: 45%;
+}
+.contact h2{
+    color: white;
+    margin-left: 20px;
+}
+.contact p strong{
+    color: #BDC3C9;
+    
+}
+.contact p{
+    color: #4A5555;
+    margin-left: 20px;
+    line-height:1.8;
+}
+.contact .form label{
+    display: block;
+    color: #BDC3C9;
+    margin-bottom: 10px;
+}
+.contact .form input, textarea{
+    background-color: #475254;
+    margin-bottom: 20px;
+    border: none;
+    color: white;
+    padding: 3px 6px;
+    width: 400px;
+}
+/* end contact style */
+/* start footer style */
+.foot{
+    background-color: #141717;
+    margin-top: -15px;
+    padding: 30px;
+    text-align: center;
+    color: #4A5555;
+    font-size: 20px;
+}
+.foot i{
+    cursor: pointer;
+    margin-left: 10px;
+}
+/* end footer style */
+/*start frame work */
+.fl-left{
+    float: left; /* floating left */ 
+}
+/*end frame work */
